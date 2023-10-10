@@ -1,0 +1,539 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* header starts  */
+header {
+    /* border: 2px solid black; */
+    background-color: rgba(6, 10, 14, 0.616);
+}
+
+.header-content {
+    /* border: 2px solid red; */
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    color: white;
+    margin-left: 50px;
+}
+
+.contact i {
+    color: red;
+    font-size: 30px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.mobile {
+    margin-left: -690px;
+    margin-bottom: 30px;
+}
+
+.mobile i {
+    color: red;
+    font-size: 30px;
+    padding: 5px;
+
+}
+
+.mobile .number {
+    color: white;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.icons {
+    color: rgb(226, 229, 231);
+    margin-left: 50px;
+
+}
+
+.icons i {
+
+    padding-left: 10px;
+}
+
+/* header ends  */
+/* nav bar starts */
+nav {
+    /* border: 2px solid red; */
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+nav ul {
+
+    /* border: 2px solid red; */
+    margin: 10px;
+    display: inline;
+
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+
+}
+
+nav ul {
+
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.company-logo {
+    font-size: 26px;
+    text-decoration: none;
+    color: rgb(68, 62, 62);
+    padding: 0 0 0 8px;
+    margin: 11px 0;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    border-left: 8px solid #e96b56;
+    margin-left: 100px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* font-weight: bold; */
+    margin-left: 10px;
+    color: black;
+    margin: auto;
+    transition: color .8s;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+/* nav bar ends */
+/* banner starts */
+.banner {
+    height: 700px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://bootstrapmade.com/demo/templates/Eterna/assets/img/slide/slide-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner-section {
+    /* border-top: 7px solid green; */
+    width: 760px;
+    background-color: rgba(248, 239, 239, 0.158);
+    /* color: white; */
+    padding: 25px;
+    padding-bottom: 40px;
+}
+
+.banner-content {
+    color: black;
+    text-align: center;
+    /* box-shadow: 2px 3px 10px 3px;
+    overflow: hidden; */
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 20px;
+}
+
+.banner-content p {
+    line-height: 20px;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner-content a {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+/* banner ends  */
+/* cards starts */
+.cards {
+    /* border:2px solid red; */
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.cards .card {
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 3px lightgrey;
+    transition: all .8s;
+    padding: 30px
+}
+
+.cards .card:hover {
+    color: white;
+    background-color: rgba(236, 55, 55, 0.863);
+
+}
+
+.cards .card i {
+    color: red;
+    font-size: 20px;
+}
+
+.cards .card:hover i {
+    color: white;
+}
+
+.cards .card h1 {
+    padding-top: 10px;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.cards.card p {
+    line-height: 25px;
+
+}
+
+.cards .card i {
+    font-size: 20px;
+}
+
+/* cards ends */
+/* volu starts */
+.volu {
+    /* border: 2px solid red; */
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.volu-img,
+.volu-text {
+    /* border: 2px solid purple; */
+    width: 600px;
+    margin: 20px;
+}
+
+.volu-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.volu-img,
+.volu-text {
+    font-size: 20px;
+    color: black;
+}
+
+.volu-text p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-style: italic;
+
+}
+
+.volu-text .para {
+    font-style: normal;
+    font-family: serif;
+}
+
+.volu-text ul li {
+    list-style: none;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.volu-text ul li i {
+    color: rgba(241, 64, 64, 0.74);
+}
+
+.volu-text h1 {
+    font-style: italic;
+}
+
+/* volu ends */
+/* <!-- cards 2 starts --> */
+
+.cards2 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cards2 .card {
+    border: 1px solid rgba(211, 211, 211, 0.454);
+    margin: 20px;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .8s;
+}
+
+.cards2 .card .card-content {
+    width: 350px;
+    text-align: center;
+
+}
+
+.cards2 .card .card-content i {
+    background-color: rgb(240, 70, 70);
+    height: 60px;
+    width: 70px;
+    padding-top: 15px;
+    font-size: 30px;
+    box-shadow: -7px -7px rgb(238, 132, 132);
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.cards2 .card .card-content h1 {
+    font-weight: bold;
+    font-style: initial;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.cards2 .card .card-content p {
+    line-height: 23px;
+    font-family: calibri light;
+    font-size: 17px;
+    color: gray;
+}
+
+.cards2 .card:hover {
+    background-color: #e96b56;
+
+}
+
+.cards2 .card:hover i {
+    background-color: white;
+    color: #e96b56;
+    box-shadow: -7px -7px rgba(255, 255, 255, 0.474);
+}
+
+.cards2 .card:hover h1,
+.cards2 .card:hover p {
+    color: white;
+}
+
+/* <!-- cards 2 ends --> */
+/* cleints atrts */
+.clients {
+    /* border: 2px solid red; */
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+
+.client-imgs img {
+    height: 50px;
+    width: 80px;
+    margin: 20px;
+
+
+
+}
+
+.clients hr {
+    width: 50px;
+    height: 5px;
+    background-color: red;
+    border: none;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.client-imgs img {
+    filter: grayscale(100%);
+    /* filter: none; */
+}
+
+.client-imgs img:hover {
+    filter: none;
+}
+
+/* clients ends */
+
+/* footer starts */
+footer {
+    background-color: rgba(0, 0, 0, 0.692);
+    padding: 30px;
+}
+
+footer section {
+    /* border: 2px solid red; */
+    margin: 20px;
+}
+
+footer .input {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    position: relative;
+}
+
+footer .input div {
+    /* border: 2px solid yellow; */
+    margin: 20px;
+    width: 600px;
+
+}
+
+footer .input div h1 {
+    margin-bottom: 30px;
+}
+
+footer .input div input {
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 50px;
+   
+   
+    
+}
+footer .input div  button {
+    background-color: #e96b56;
+    position: absolute;
+    right: 26px;
+    top: 25px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+}
+
+footer .links
+{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+footer .links div
+{
+   padding-left: 60px;
+   width: 500px;
+}
+footer .links  h3
+{
+    margin-bottom: 30px;
+
+}
+footer .links .ulinks li, .serv li
+{
+  margin-bottom: 20px;
+ width: 200px;
+  list-style: none;
+}
+footer .links .ulinks li a, .serv li a
+{
+  text-decoration: none;
+  color: white;
+}
+footer .f-contact p
+
+{
+   line-height: 25px;
+
+   width: 200px;
+   margin-bottom: 20px;
+}
+footer .f-about  p
+
+{
+ margin-bottom: 20px;
+ line-height: 25px;
+    
+}
+footer .f-about .icon2
+{
+    font-size: 15px;
+     display: flex;
+     padding-left: 20px;
+     
+}
+footer .f-about .icon2 i{
+    background-color: rgba(255, 255, 255, 0.466);
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 100%;
+}
+
+
+/* footer ends */
+/* scrolla attay starts */
+.scorrllarrow {
+    background-color: #e96b56;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    transition: all .9s;
+}
+
+.scorrllarrow a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* scrolla  array ends  */
+/* copy right starts */
+footer .copyright
+{
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+/* copy right ends */

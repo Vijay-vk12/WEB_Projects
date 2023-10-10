@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Financial.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Financial Management Dashboard</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Budget</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </nav>
+    
+    <div class="dashboard">
+        <!-- KPIs, Charts, and other dashboard content here -->
+    </div>
+    
+
+    <div class="dashboard">
+        <div class="kpi">
+            <h2>Revenue</h2>
+            <div id="revenue" class="value">$0</div>
+        </div>
+        <div class="kpi">
+            <h2>Expenses</h2>
+            <div id="expenses" class="value">$0</div>
+        </div>
+        <div class="kpi">
+            <h2>Profit</h2>
+            <div id="profit" class="value">$0</div>
+        </div>
+        <div class="chart-container">
+            <canvas id="barChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="lineChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="waveChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="pieChart"></canvas>
+        </div>
+        <div class="kpi">
+            <h2>Days Required</h2>
+            <div id="daysRequired" class="value">0 days</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
